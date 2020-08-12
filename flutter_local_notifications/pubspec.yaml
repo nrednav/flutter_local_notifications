@@ -7,7 +7,10 @@ dependencies:
   flutter:
     sdk: flutter
   platform: ^2.2.1
-  flutter_local_notifications_platform_interface: ^1.0.1
+  # flutter_local_notifications_platform_interface: ^1.0.1
+  flutter_local_notifications_platform_interface:
+    git: git://github.com/nrednav/flutter_local_notifications.git
+    path: flutter_local_notifications_platform_interface/
 
 dev_dependencies:
   flutter_driver:
@@ -26,7 +29,6 @@ flutter:
         pluginClass: FlutterLocalNotificationsPlugin
       ios:
         pluginClass: FlutterLocalNotificationsPlugin
-
 
 environment:
   sdk: ">=2.0.0 <3.0.0"
