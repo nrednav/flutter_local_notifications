@@ -9,7 +9,8 @@ dependencies:
   platform: ^2.2.1
   # flutter_local_notifications_platform_interface: ^1.0.1
   flutter_local_notifications_platform_interface:
-    git: git://github.com/nrednav/flutter_local_notifications.git
+    git:
+      url: git://github.com/nrednav/flutter_local_notifications.git
       path: flutter_local_notifications_platform_interface/
 
 dev_dependencies:
